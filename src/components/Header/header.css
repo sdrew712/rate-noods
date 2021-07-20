@@ -1,0 +1,29 @@
+h1{
+    color: #ff926b;
+    margin: 0;
+    font-size: 50px;
+}
+
+h2{
+    color: #ffc38b;
+    margin: 0;
+    font-size: 30px;
+}
+
+header{
+    background-color: #4d3e3e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-text{
+    margin-left: 50px;
+}
+
+.soup-picture{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+    width: 200px;
+    float: left;
+}

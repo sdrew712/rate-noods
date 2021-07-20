@@ -7,7 +7,7 @@ function Header(){
         <header>
             <img className="soup-picture" src={noodleBowl} alt="noodle_bowl" />      
             <div className="header-text">
-                <h1>Rate Noods</h1>
+                <a href=""><b>Rate Noods</b></a>
                 <h2>Instant noodle connoisseur</h2>
             </div>
         </header>

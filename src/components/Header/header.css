@@ -1,13 +1,15 @@
-h1{
+a{
     color: #ff926b;
     margin: 0;
     font-size: 50px;
+    text-decoration: none;
 }
 
 h2{
     color: #ffc38b;
-    margin: 0;
-    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 25px;
 }
 
 header{
@@ -17,13 +19,15 @@ header{
 }
 
 .header-text{
-    margin-left: 50px;
+    margin-left: 200px;
 }
 
 .soup-picture{
     padding-left: 20px;
     padding-right: 20px;
-    height: 200px;
-    width: 200px;
-    float: left;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 0;
 }

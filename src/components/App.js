@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "./Header/Header";
+import Title from "./Title/Title";
 import TopBar from "./TopBar/TopBar";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <TopBar />
+      <div className="header">
+        <Title />
+        <TopBar />
+      </div>
     </div>
   );
 }

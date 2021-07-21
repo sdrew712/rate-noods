@@ -1,0 +1,35 @@
+.title-text{
+    margin-left: 200px;
+    width: 40%;
+    height: 40%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-title{
+    color: #ff926b;
+    margin: 0;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+h2{
+    color: #ffc38b;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.soup-picture{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 8px;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}

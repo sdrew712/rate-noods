@@ -1,12 +1,7 @@
 .title-text{
     margin-left: 200px;
-    width: 40%;
-    height: 40%;
-    float: left;
     padding-top: 40px;
     padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
 }
 
 .site-title{

@@ -10,7 +10,8 @@ code {
     monospace;
 }
 
-header{
+.header{
   background-color: #4d3e3e;
   height: 200px;
+  display: flex;
 }

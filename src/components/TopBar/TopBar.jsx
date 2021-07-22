@@ -1,5 +1,5 @@
 import React from "react";
-import "./top-bar.css"
+import "./top-bar.scss"
 
 function topBar(){
     return(

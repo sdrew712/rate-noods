@@ -1,5 +1,5 @@
 import React from "react";
-import "./title.css";
+import "./title.scss";
 import noodleBowl from "./noodle-bowl.png";
 
 function Title(){

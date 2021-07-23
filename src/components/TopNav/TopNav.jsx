@@ -1,10 +1,10 @@
 import React from "react";
 import noodleBowl from "./noodle-bowl.png";
-import "./top-nav.css"
+import "./top-nav.scss"
 
 function TopNav(){
     return(
-        <div className="top-nav">
+        <div className="nav-container">
             <div className="title-text">            
                 <img className="soup-picture" src={noodleBowl} alt="noodle_bowl" />      
                 <a className="site-title" href=""><b>Rate Noods</b></a>

@@ -1,0 +1,26 @@
+.header{
+    padding-top: 7.5rem;
+    padding-bottom: 3.75rem;
+    text-align: center;
+    background-color: var(--coral);
+    color: var(--cream);
+}
+
+.header-text{
+    color: var(--cream); //to do: wont inherit from .header, pls fix
+}
+
+.bottom-text{
+    padding-right: 4rem;
+    padding-left: 4rem;   
+}
+
+.panda{
+    padding-top: 10.5rem;
+}
+
+@media (max-width: 480px) {
+    .header-text{
+
+    }
+}

@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&display=swap');
+
 html{
 --dark-brown: #4d3e3e;
 --coral: #ff926b;
---peach: #ffc38b;
 --cream: #fff3cd;
+--light-cream: #fff8e0;
 }
 
 body {
@@ -10,6 +13,18 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+  color: var(--coral);
+  font-weight: 400;
+  font-size: 3.25rem;
+}
+
+h2{
+  font-weight: 400;
 }
 
 code {

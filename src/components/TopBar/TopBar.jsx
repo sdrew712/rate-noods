@@ -1,7 +1,7 @@
 import React from "react";
-import "./top-bar.scss"
 import Slide from '@material-ui/core/Slide';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import "./top-bar.scss"
 
 //is going to be used to make panda appear
 // window.onscroll = function() {scrollFunction()};

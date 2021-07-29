@@ -3,36 +3,48 @@
     background-color: var(--coral);
     color: var(--cream);
     align-items: center;
-    // padding-top: 8.875rem;
-    padding-bottom: 3.125rem;
+    padding-top: 8.875rem;
+    padding-bottom: 6rem;
 }
 
 .site-title{
     color: var(--cream); //to do: wont inherit from .header, pls fix
 }
 
-.bottom-text{
-    padding-right: 4rem;
-    padding-left: 4rem;   
+.header-text{
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .panda{
     padding-right: 2rem;
+    padding-left: 2rem;
     height: 11.25rem;
     width: 11.25rem;
     justify-content: center;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
     .panda{
         height: 20rem;
         width: 20rem;
-        display: flex;
-        justify-content: flex-start;
     }
     .header{
         display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-start;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .header-text{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        text-align: left;
+    }
+    .bottom-text{
+        font-size: 2.5rem;
+    }
+    .site-title{
+        font-size: 6.25rem;
+        margin: 0;
     }
 }

@@ -2,9 +2,8 @@
     text-align: center;
     background-color: var(--coral);
     color: var(--cream);
-    align-items: center;
-    padding-top: 8.875rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .site-title{
@@ -17,8 +16,6 @@
 }
 
 .panda{
-    padding-right: 2rem;
-    padding-left: 2rem;
     height: 11.25rem;
     width: 11.25rem;
     justify-content: center;
@@ -28,23 +25,25 @@
     .panda{
         height: 20rem;
         width: 20rem;
+        margin-left: 4rem;
     }
     .header{
         display: flex;
-        justify-content: flex-start;
-        padding-left: 6rem;
-        padding-right: 6rem;
+        align-items: center;
+        justify-content: center;
     }
     .header-text{
         padding-left: 5rem;
-        padding-right: 5rem;
+        padding-right: 0;
+        margin-right: 15%;
         text-align: left;
-    }
-    .bottom-text{
-        font-size: 2.5rem;
+        width: 40%;
     }
     .site-title{
         font-size: 6.25rem;
         margin: 0;
+    }
+    .bottom-text{
+        font-size: 2.5rem;
     }
 }

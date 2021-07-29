@@ -1,12 +1,13 @@
 .header{
-    padding-top: 7.5rem;
-    padding-bottom: 3.75rem;
     text-align: center;
     background-color: var(--coral);
     color: var(--cream);
+    align-items: center;
+    // padding-top: 8.875rem;
+    padding-bottom: 3.125rem;
 }
 
-.header-text{
+.site-title{
     color: var(--cream); //to do: wont inherit from .header, pls fix
 }
 
@@ -16,11 +17,22 @@
 }
 
 .panda{
-    padding-top: 10.5rem;
+    padding-right: 2rem;
+    height: 11.25rem;
+    width: 11.25rem;
+    justify-content: center;
 }
 
-@media (max-width: 480px) {
-    .header-text{
-
+@media (min-width: 480px) {
+    .panda{
+        height: 20rem;
+        width: 20rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 }

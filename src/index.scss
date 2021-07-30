@@ -18,7 +18,7 @@ h1{
   font-family: 'Fredoka One';
   color: var(--coral);
   font-weight: 400;
-  font-size: 3.25rem;
+  font-size: 3rem;
 }
 
 h2{
@@ -26,12 +26,17 @@ h2{
   font-family: 'Fredoka One';
   font-size: 3rem;
   padding-top: 3rem;
+  padding-bottom: 2rem;
   margin: 0;
 } 
 
 p{
   font-size: 1.5rem;
-  padding: 3rem 2rem 3rem 2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin: 0;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 button{

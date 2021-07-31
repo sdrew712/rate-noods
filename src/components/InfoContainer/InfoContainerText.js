@@ -6,12 +6,6 @@ const InfoContainerText = [
         buttonText: "See my noodle reviews"
     },
     {
-        style: "style-2",
-        headerText: "Goodbye plain noodles!",
-        bodyText: "Want to learn how to make your noodles more of a meal?",
-        buttonText: "Upgrade your noodles"
-    },
-    {
         style: "style-1",
         headerText: "Get in touch",
         bodyText: "Have questions? Comments? Like my work?",

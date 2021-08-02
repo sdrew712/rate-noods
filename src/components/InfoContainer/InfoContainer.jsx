@@ -3,9 +3,9 @@ import "./info-container.scss"
 
 function InfoContainer(props){
     return(
-        <div className={props.style}>
+        <div className="style-1">
             <h2 className="header-text">{props.headerText}</h2>
-            <p>{props.bodyText}</p>
+            <p className="style-1-p">{props.bodyText}</p>
             <button type="button">{props.buttonText}</button>
         </div>            
     )

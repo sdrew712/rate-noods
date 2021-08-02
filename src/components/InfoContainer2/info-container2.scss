@@ -1,12 +1,29 @@
 .style-2{
     background-color: var(--light-cream);
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
-.container{
-    text-align: left;
+.meal{
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .style-2{
+        padding-right: 4rem;
+        padding-left: 4rem;    
+    }
+
+    .container-2{
+        text-align: left;
+        padding-right: 4rem;
+    }
+    
+    .meal{
+        display: block;
+    }
 }

@@ -1,0 +1,29 @@
+.footer{
+    height: 8rem;
+    background-color: var(--coral);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.credits{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.linkedin-logo{
+    width: 8rem;
+    height: 2rem;
+    padding-right: 2rem;
+    filter: none;
+    border-radius: 0;
+}
+
+.github-logo{
+    width: 2rem;
+    height: 2rem;
+    filter: none;
+    border-radius: 0;
+}

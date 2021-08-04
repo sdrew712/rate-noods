@@ -1,9 +1,9 @@
 import React from "react";
 import Headroom from 'react-headroom'
-import "./top-bar.scss"
 import Reviews from "../Reviews/Reviews"
 import Upgrades from "../Upgrades/Upgrades"
 import Contact from "../Contact/Contact"
+import "./top-bar.scss"
 import {
   BrowserRouter as Router,
   Switch,

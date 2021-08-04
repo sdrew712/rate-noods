@@ -4,19 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 3rem;
-    padding-left: 3rem;
 }
 
 .credits{
-    padding-top: 0;
-    padding-bottom: 0;
+    font-size: 1rem;
+    padding: 0 0 0 2rem;
 }
 
 .linkedin-logo{
-    width: 8rem;
-    height: 2rem;
-    padding-right: 2rem;
+    width: 4rem;
+    height: 1rem;
+    padding-right: 1rem;
     filter: none;
     border-radius: 0;
 }
@@ -26,4 +24,32 @@
     height: 2rem;
     filter: none;
     border-radius: 0;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem 0 0;
+}
+
+@media (min-width: 769px) {
+    .footer{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .credits{
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+
+    .icon-container{
+        padding-right: 0;
+    }
+
+    .linkedin-logo{
+        width: 8rem;
+        height: 2rem;
+        padding-right: 2rem;
+    }
 }

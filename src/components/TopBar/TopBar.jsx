@@ -11,20 +11,14 @@ import {
   Link
 } from "react-router-dom";
 
-
-export default function TopBar(props) {
+export default function TopBar() {
   return (
     <Headroom>
       <Router>
         <div id="nav-container">
-          <nav>
-                <Link to="/reviews">Reviews</Link>
-                <Link to="/upgrades">Upgrades</Link>
-                <Link to="/contact">Contact</Link>
-          </nav>
-
-          {/* A <Switch> looks through its children <Route>s and
-              renders the first one that matches the current URL. */}
+          <Link to="/reviews">Reviews</Link>
+          <Link to="/upgrades">Upgrades</Link>
+          <Link to="/contact">Contact</Link>
           <Switch>
             <Route path="/reviews">
               <Reviews />

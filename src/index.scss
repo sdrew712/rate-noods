@@ -46,7 +46,7 @@ img{
   height: 30%;
 }
 
-button{
+.button{
   color: var(--light-cream);
   border: none;
   padding: 1rem 1.5rem 1rem 1.5rem;
@@ -55,6 +55,7 @@ button{
   border-radius: 8px;
   font-size: 1.5rem;
   font-family: 'Fredoka One';
+  text-decoration: none;
 }
 
 @media (min-width: 769px) {

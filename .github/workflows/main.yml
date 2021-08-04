@@ -12,10 +12,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - uses: actions/setup-node@v2
+    - name: Set node version
+      uses: actions/setup-node@v2
       with:
         node-version: '14.17.3'
-    - run: node -v && npm install && npm run build
+
+    - name: Build React app
+      run: npm install && npm run build
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1

@@ -12,7 +12,7 @@ import {
   Redirect
 } from "react-router-dom";
 
-function Router() {
+export default function Router() {
   return (
     <BrowserRouter>
       <TopBar />
@@ -30,5 +30,3 @@ function Router() {
     </BrowserRouter> 
   );
 }
-
-export default Router;

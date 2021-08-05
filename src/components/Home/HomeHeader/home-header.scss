@@ -1,54 +1,54 @@
 .header{
-    text-align: center;
-    background-color: var(--coral);
-    color: var(--cream);
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+  text-align: center;
+  background-color: var(--coral);
+  color: var(--cream);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 h3{
-    font-size: 1.5rem;
-    font-weight: 400;
-    padding-right: 2rem;
-    padding-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
 .site-title{
-    color: var(--cream); //to do: wont inherit from .header, pls fix
+  color: var(--cream); //to do: wont inherit from .header, pls fix
 }
 
 .panda{
-    height: 11.25rem;
-    width: 11.25rem;
-    justify-content: center;
-    border-radius: none; //to do: change when no longer an image
-    filter: none; //to do: change when no longer an image
+  height: 11.25rem;
+  width: 11.25rem;
+  justify-content: center;
+  border-radius: none; //to do: change when no longer an image
+  filter: none; //to do: change when no longer an image
 }
 
 @media (min-width: 769px) {
-    .panda{
-        height: 20rem;
-        width: 20rem;
-        margin-left: 4rem;
-    }
-    .header{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .header-text-container{
-        padding-left: 5rem;
-        margin-right: 15%;
-        text-align: left;
-        width: 40%;
-    }
-    .site-title{
-        font-size: 6.25rem;
-        margin: 0;
-    }
-    h3{
-        font-size: 2.5rem;
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .panda{
+    height: 20rem;
+    width: 20rem;
+    margin-left: 4rem;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-text-container{
+    padding-left: 5rem;
+    margin-right: 15%;
+    text-align: left;
+    width: 40%;
+  }
+  .site-title{
+    font-size: 6.25rem;
+    margin: 0;
+  }
+  h3{
+    font-size: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

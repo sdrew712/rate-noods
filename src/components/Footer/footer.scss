@@ -1,55 +1,55 @@
 .footer{
-    height: 8rem;
-    background-color: var(--coral);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 8rem;
+  background-color: var(--coral);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .credits{
-    font-size: 1rem;
-    padding: 0 0 0 2rem;
+  font-size: 1rem;
+  padding: 0 0 0 2rem;
 }
 
 .linkedin-logo{
-    width: 4rem;
-    height: 1rem;
-    padding-right: 1rem;
-    filter: none;
-    border-radius: 0;
+  width: 4rem;
+  height: 1rem;
+  padding-right: 1rem;
+  filter: none;
+  border-radius: 0;
 }
 
 .github-logo{
-    width: 2rem;
-    height: 2rem;
-    filter: none;
-    border-radius: 0;
+  width: 2rem;
+  height: 2rem;
+  filter: none;
+  border-radius: 0;
 }
 
 .icon-container{
-    display: flex;
-    align-items: center;
-    padding: 0 2rem 0 0;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 0 0;
 }
 
 @media (min-width: 769px) {
-    .footer{
-        padding-right: 3rem;
-        padding-left: 3rem;
-    }
+  .footer{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
 
-    .credits{
-        font-size: 1.5rem;
-        padding-left: 0;
-    }
+  .credits{
+    font-size: 1.5rem;
+    padding-left: 0;
+  }
 
-    .icon-container{
-        padding-right: 0;
-    }
+  .icon-container{
+    padding-right: 0;
+  }
 
-    .linkedin-logo{
-        width: 8rem;
-        height: 2rem;
-        padding-right: 2rem;
-    }
+  .linkedin-logo{
+    width: 8rem;
+    height: 2rem;
+    padding-right: 2rem;
+  }
 }

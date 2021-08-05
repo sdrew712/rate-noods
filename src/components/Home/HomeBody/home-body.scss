@@ -1,41 +1,41 @@
 .style-1{
-    background-color: var(--cream);
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  background-color: var(--cream);
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .style-2{
-    background-color: var(--light-cream);
-    padding-top: 5rem;
-    padding-bottom: 5rem;    
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+  background-color: var(--light-cream);
+  padding-top: 5rem;
+  padding-bottom: 5rem;    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 
 .meal{
-    display: none;
+  display: none;
 }
 
 @media (min-width: 769px) {
-    .style-1-p{
-        padding-right: 34%;
-        padding-left: 34%;
-    }
-    
-    .style-2{
-        padding-right: 4rem;
-        padding-left: 4rem;    
-    }
+  .style-1-p{
+    padding-right: 34%;
+    padding-left: 34%;
+  }
+  
+  .style-2{
+    padding-right: 4rem;
+    padding-left: 4rem;    
+  }
 
-    .container-2{
-        text-align: left;
-        padding-right: 4rem;
-    }
-    
-    .meal{
-        display: block;
-    }
+  .container-2{
+    text-align: left;
+    padding-right: 4rem;
+  }
+  
+  .meal{
+    display: block;
+  }
 }

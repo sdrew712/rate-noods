@@ -1,7 +1,9 @@
 import React from "react";
 
-function Upgrades(){
-    return null;
-}
+export default function Upgrades(){
+  return (
+    <>
 
-export default Upgrades;
+    </>
+  )
+}

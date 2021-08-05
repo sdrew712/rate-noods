@@ -9,9 +9,9 @@ import {
 } from "react-router-dom";
 
 
-function HomeBody(){
+export default function HomeBody(){
   return(
-    <div>
+    <>
       <div className="style-1">
         <h2 className="header-text">Hello!</h2>
         <p className="style-1-p">I’m an instant noodle addict aspiring to try as many noodles as possible.</p>
@@ -62,8 +62,6 @@ function HomeBody(){
           </div>
         </Router>
       </div>
-    </div>       
+    </>       
   )
 }
-
-export default HomeBody; 

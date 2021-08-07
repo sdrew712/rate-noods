@@ -1,5 +1,5 @@
 .footer{
-  height: 8rem;
+  height: 7rem;
   background-color: var(--coral);
   display: flex;
   align-items: center;
@@ -9,12 +9,14 @@
 .credits{
   font-size: 1rem;
   padding: 0 0 0 2rem;
+  padding-left: 2rem;
+  width: 28%;
   font-family: 'Fredoka One';
 }
 
 .linkedin-logo{
-  width: 4rem;
-  height: 1rem;
+  width: 5rem;
+  height: 1.25rem;
   padding-right: 1rem;
   filter: none;
   border-radius: 0;
@@ -40,7 +42,7 @@
   }
 
   .credits{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     padding-left: 0;
   }
 

@@ -1,9 +1,18 @@
+element-style{
+  height: 0;
+}
+
+#topbar-padding{
+  padding-top: 1.75rem;
+  padding-bottom: 3rem;
+}
+
 .headroom{
   background-color: var(--coral);
   font-family: 'Fredoka One';
   align-items: baseline;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  // padding-top: 1.25rem;
+  // padding-bottom: 2.5rem;
 }
 
 .panda-nav{
@@ -20,8 +29,8 @@
     flex: auto;
     align-items: center;
     justify-content: space-between;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   #top-nav{

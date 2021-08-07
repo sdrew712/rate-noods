@@ -1,12 +1,7 @@
 import React from "react";
 import "./home-body.scss";
 import Meal from "./meal.jpg";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default function HomeBody(){

@@ -2,8 +2,8 @@
   background-color: var(--coral);
   font-family: 'Fredoka One';
   align-items: baseline;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .panda-nav{
@@ -17,7 +17,9 @@
 @media (min-width: 480px) {
   .headroom{
     display: flex;
+    flex: auto;
     align-items: center;
+    justify-content: space-between;
   }
 
   #top-nav{
@@ -27,12 +29,13 @@
   .nav-link{
     text-decoration: none;
     color: var(--dark-brown);
+    padding-right: 4rem;
   }
 
   .panda-nav{
     display: block;
-    height: 4rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 4.5rem;
     filter: none;
     padding-left: 2rem;
   }

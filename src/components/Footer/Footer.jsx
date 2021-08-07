@@ -8,8 +8,8 @@ export default function Footer(){
     <div className="footer">
       <p className="credits">Made with ♥ by Sarah Drew</p>
       <div className="icon-container">
-        <img src={LinkedInLogo} alt="linkedin_logo" className="linkedin-logo"/>
-        <img src={GitHubLogo} alt="github_logo" className="github-logo"/>
+        <a href="https://www.linkedin.com/in/sarah-drew-dev/"><img src={LinkedInLogo} alt="linkedin_logo" className="linkedin-logo"/></a>
+        <a href="https://github.com/sdrew712"><img src={GitHubLogo} alt="github_logo" className="github-logo"/></a>
       </div>
     </div>
   )

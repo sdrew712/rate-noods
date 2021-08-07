@@ -1,21 +1,39 @@
 .headroom{
   background-color: var(--coral);
   font-family: 'Fredoka One';
+  align-items: baseline;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .panda-nav{
-  height: 4rem;
-  width: 4rem;
-  filter: none;
-  align-items: flex-end;
+  display: none;
+}
+
+#top-nav{
+  display: none;
 }
 
 @media (min-width: 480px) {
-  .top-bar{
-    justify-content: flex-end;
+  .headroom{
+    display: flex;
+    align-items: center;
+  }
+
+  #top-nav{
+    display: block;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    color: var(--dark-brown);
   }
 
   .panda-nav{
-    align-self: flex-start;
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    filter: none;
+    padding-left: 2rem;
   }
 }

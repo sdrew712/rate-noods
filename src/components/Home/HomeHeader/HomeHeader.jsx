@@ -1,6 +1,6 @@
 import React from "react";
 import "./home-header.scss"
-import Panda from "./panda.png"
+import Panda from "../../panda.png"
 
 export default function HomeHeader(){
 	return(

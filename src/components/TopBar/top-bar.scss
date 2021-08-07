@@ -1,32 +1,21 @@
-#nav-container {
+.headroom{
   background-color: var(--coral);
-  display: flex;
-  justify-content: space-around;
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
   font-family: 'Fredoka One';
 }
 
-#nav-container a {
-  color: var(--dark-brown);
-  text-align: center;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-#nav-container a:hover {
-  color: var(--cream);
-}
-
-#nav-container a.active {
-  color: var(--cream);
+.panda-nav{
+  height: 4rem;
+  width: 4rem;
+  filter: none;
+  align-items: flex-end;
 }
 
 @media (min-width: 480px) {
-  #nav-container{
+  .top-bar{
     justify-content: flex-end;
   }
-  #nav-container a{
-    padding-right: 4.375rem;
+
+  .panda-nav{
+    align-self: flex-start;
   }
 }
